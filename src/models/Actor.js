@@ -19,7 +19,7 @@ const Actor = sequelize.define('actors', {
         allowNull: false
     },
     birthday: {
-        type: DataTypes.STRING,
+        type: DataTypes.DATE,
         allowNull: false
     },
 });
